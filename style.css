@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+body{
+    background-color: white;
+   
+}
+.main-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px auto;
+    padding:0px 40px 0px 40px;
+   
+}
+.left-nav{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+.right-nav{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.left-nav a{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+a i{
+    font-size: 10px;
+}
+.link{
+    margin-left: 5px;
+    display: flex;
+    gap: 30px;
+}
+.right-nav input{
+    padding: 15px 14px;
+    background-color: rgb(244, 240, 250);
+    border-radius: 40px;
+    border: none;
+    font-weight: bold;
+    position: relative;
+}
+.right-nav input::placeholder{
+    
+    font-size: 15px;
+    font-weight: 400;
+}
+.right-nav i{
+    position: absolute;
+    left: 640px;
+    z-index: 1;
+    color: rgb(156, 152, 152);
+}
+.right-nav a{
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+.signup{
+    padding: 14px 25px;
+    background-color: black;
+    border-radius: 40px;
+    color:white;
+}
+.title{
+    width: 810px;
+    margin:90px auto;
+   
+}
+.content{
+    width: 810px;
+    height: 60px;
+    margin: 88px auto;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+   
+   
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -70px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+   
+}
+
+.box{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.box img{
+    border-radius: 50px;
+}
+h5{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.user p{
+    font-size: 12px;
+    color: rgb(108, 109, 110);
+    font-weight: 500;
+}
+.box2{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+span i{
+    border: 1px solid lightgray ;
+    border-radius: 50%;
+    padding: 10px;
+}
+button{
+    background-color: rgb(13,12,34);
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 11px 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.card1,.card2,.card3{
+    width: 810px;
+    margin:-55px auto;
+}
+.card1 img,.card2 img,.card3 img{
+    width: 100%;
+    border-radius: 8px;
+}
+.card3{
+    margin-top: 110px;
+}
+.head{
+    width: 810px;
+   margin:110px auto;
+   padding-left: 30px;
+   line-height: 60px;
+}
+.head h2{
+    font-weight: 400;
+    font-size: 22px;
+}
+.head h2 span{
+   border-bottom: 2px solid rgb(236, 5, 202);
+}
